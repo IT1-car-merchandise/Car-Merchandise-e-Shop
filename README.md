@@ -1,6 +1,6 @@
 Car Merchandise shop files
 
-I don't mind if people steal the site but I would appreciate if credit will be given.
+I don't mind if people steal the site but I would appreciate if credit is be given.
 
 TEAM MEMBERS:
 
