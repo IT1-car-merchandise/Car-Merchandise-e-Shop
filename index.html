@@ -41,10 +41,16 @@
                 <button onclick="location.href='prod3.html'" id="prod3">View Product</button>
             </div>
             <div class="product">
-                <img src="prod4.png" alt="Kšiltovka 1" width="200">
+                <img src="prod4.png" alt="Kšiltovka 1" height="200">
                 <h2>Kšiltovka</h2>
                 <p>$29.99</p>
                 <button onclick="location.href='prod4.html'" id="prod4">View Product</button>
+            </div>
+            <div class="product">
+                <img src="vlajka.png" alt="Kauťák vlajka" width="200">
+                <h2>Kauťák vlajka</h2>
+                <p>$0.95</p>
+                <button onclick="location.href='prod5.html'" id="prod5">View Product</button>
             </div>
         </section>
     </main>
@@ -54,10 +60,10 @@
 </body>
 
 <script>
-    const prod1 = document.getElementById("prod1");
+    const prod1 = document.getElementById("prod5");
     prod1.addEventListener("mouseenter", function () {
         prod1.style.backgroundColor = "red";
-        prod1.textContent = "you found an easter egg :)"
+        prod1.textContent = "Don't forget the hat"
     });
 
     prod1.addEventListener("mouseleave", function () {
