@@ -41,11 +41,20 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%; /* umožní flexibilní růst */
+    min-height: 400px; /* nastav minimální výšku */
 }
+
 
 .product img {
     max-width: 100%;
     border-radius: 5px;
+    height: 200px;
 }
 
 button {
